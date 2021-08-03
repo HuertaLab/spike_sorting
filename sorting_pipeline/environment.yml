@@ -1,0 +1,19 @@
+name: franklab_sorting_pipeline
+channels:
+- conda-forge
+- flatiron
+- defaults
+- edeno
+dependencies:
+- ml_ms3
+- qt-mountainview
+- franklab_msdrift
+- franklab_mstaggedcuration
+- jupyter
+- jupyterlab
+- "python >= 3.6"
+- pip
+- pip:
+  - ml_ms4alg
+  - spikeforest
+  - mountaintools
