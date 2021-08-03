@@ -4,6 +4,7 @@ clc
 %% INPUT YOUR FOLDER HERE
 parent = '/media/loinn/Windows_linux/Mountainsort/JoeTMaze/'
 %% Dependencies
+% This folder path must include the Neuralynx .mex files as well as the mdaio folder and functions from the mountainsort github page
 addpath(genpath('/home/loinn/MATLAB/mountainsort convert to mda'))
 geom = [0 0; 20 0; 0 20; 20 20];
 
