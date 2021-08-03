@@ -5,6 +5,7 @@ export MKL_NUM_THREADS=$NUM_WORKERS_PER_JOB
 export NUMEXPR_NUM_THREADS=$NUM_WORKERS_PER_JOB
 export OMP_NUM_THREADS=$NUM_WORKERS_PER_JOB
 
+% This file has been modified by the HuertaLab
 
 
 
